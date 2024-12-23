@@ -1,0 +1,16 @@
+@import url(__photo-grid/body__photo-grid.css);
+@import url(__lead/body__lead.css);
+@import url(__intro/body__intro.css);
+@import url(__places/body__places.css);
+@import url(__header/body__header.css);
+
+.body {
+    background-color: var(--color-bg);
+    padding: 28px 48px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-fg);
+    font-family: 'Inter', sans-serif;
+}

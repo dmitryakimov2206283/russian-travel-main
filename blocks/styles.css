@@ -1,0 +1,20 @@
+@import url(header/header.css);
+@import url(lead/lead.css);
+@import url(intro/intro.css);
+@import url(photo-grid/photo-grid.css);
+@import url(body/body.css);
+@import url(place/place.css);
+@import url(website/website.css);
+@import url(../fonts/fonts.css);
+
+:root {
+    --color-bg: #2A2C2F;
+    --color-fg: white
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
