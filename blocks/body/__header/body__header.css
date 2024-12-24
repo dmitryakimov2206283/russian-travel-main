@@ -2,3 +2,15 @@
     width: 100%;
     padding: 0px 48px;
 }
+
+@media (max-width: 768px) {
+    .body__header {
+        padding: 0px 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .body__header {
+        padding: 0px 16px;
+    }
+}

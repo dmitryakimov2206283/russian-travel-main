@@ -14,3 +14,27 @@
     column-gap: 40px;
     max-width: 984px;
 }
+
+@media (max-width: 1024px) {
+    .place {
+        column-gap: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place {
+        column-gap: 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place {
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "title"
+            "website"
+            "image"
+            "paragraph";
+        row-gap: 32px;
+    }
+}

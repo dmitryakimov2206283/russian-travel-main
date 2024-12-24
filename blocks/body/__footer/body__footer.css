@@ -2,3 +2,16 @@
     margin: 92px 0px 0px 0px;
     padding: 0 48px;
 }
+
+@media (max-width: 768px) {
+    .body__footer {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .body__footer {
+        margin-top: 64px;
+        padding: 0 16px;
+    }
+}

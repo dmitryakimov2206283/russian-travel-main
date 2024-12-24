@@ -5,3 +5,10 @@
     gap: 18px;
     width: 100%;
 }
+
+@media (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
