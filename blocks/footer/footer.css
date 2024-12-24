@@ -1,0 +1,7 @@
+@import url(__copyright/footer__copyright.css);
+
+.footer {
+    display: flex;
+    gap: 18px;
+    width: 100%;
+}

@@ -5,11 +5,14 @@
 @import url(body/body.css);
 @import url(place/place.css);
 @import url(website/website.css);
+@import url(cover/cover.css);
+@import url(footer/footer.css);
 @import url(../fonts/fonts.css);
 
 :root {
     --color-bg: #2A2C2F;
-    --color-fg: white
+    --color-fg: white;
+    --color-caption: #AAAAAA;
 }
 
 * {

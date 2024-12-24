@@ -1,0 +1,4 @@
+.cover__overlay {
+    background-color: var(--color-bg);
+    opacity: 0.7;
+}
